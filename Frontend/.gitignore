@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Tailwind and PostCSS cache
+.postcss-cache/
+tailwind.config.js.bak
+.next/
+.vercel/
+
+# Logs
+logs/
+*.log
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.swo
